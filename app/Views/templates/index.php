@@ -45,9 +45,8 @@
                 <?= $this->renderSection('page-content'); ?>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+                    <!-- <h1 class="h3 mb-4 text-gray-800">Blank Page</h1> -->
 
-                </>
                 <!-- /.container-fluid -->
 
             </div>
@@ -88,7 +87,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="<?= base_url('logout'); ?>">Logout</a>
                 </div>
             </div>
         </div>
@@ -105,5 +104,4 @@
     <script src="<?= base_url(); ?>/js/sb-admin-2.min.js"></script>
 
 </body>
-
 </html>
